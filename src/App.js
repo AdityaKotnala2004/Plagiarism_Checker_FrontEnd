@@ -33,7 +33,7 @@ export default function App() {
     }
     setLoading(true);
     try {
-      const response = await axios.post('http://127.0.0.1:5000/check', {
+      const response = await axios.post('https://checkers-backend-jnkd.onrender.com/check', {
         text1,
         text2,
       });
